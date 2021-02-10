@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 const int maxn=207;
 int t,d,q;
 bool dp[maxn];
