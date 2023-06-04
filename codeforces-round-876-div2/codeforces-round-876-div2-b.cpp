@@ -16,7 +16,7 @@ int main(){
         }
         long long int res = 0;
         for(int i=1; i<=n; i++){
-            for(int k=0; j<i && j<m[i].size(); j++){
+            for(int j=0; j<i && j<m[i].size(); j++){
                 res += m[i][j];
             }
         }
