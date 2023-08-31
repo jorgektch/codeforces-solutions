@@ -9,18 +9,18 @@ int main(){
         long long int flag = 0;
 
         for(int i=0; i<n; i++){
-            int value; cin >> value;
-            if(val <= 0){
-                if(val < 0) flag = 1;
+            long long int value; cin >> value;
+            if(value <= 0){
+                if(value < 0) flag = 1;
             }else{
                 if(flag == 1) aux++;
                 flag = 0;
             }
             if(value < 0) value *= -1;
-            aux += val;
+            sum += value;
         }
         if(flag == 1) aux++;
-        cout << sum << endl;
+        cout << sum << " " << aux << endl;
     }
     return 0;
 }
